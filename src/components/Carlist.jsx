@@ -43,7 +43,7 @@ export default function Carlist(){
     ]
 
     return(
-        <div className='ag-theme-material' style={{width: '45em', height: '400px', margin: 'auto', textAlign: 'center'}}>
+        <div className='ag-theme-material' style={{width: '1200px', height: '400px', margin: 'auto', textAlign: 'center'}}>
             <AgGridReact 
                 columnDefs={columns}
                 rowData={cars}
