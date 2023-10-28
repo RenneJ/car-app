@@ -18,35 +18,42 @@ export default function Carlist(){
     const columns = [
         {
             headerName: 'Brand',
-            field: 'brand'
+            field: 'brand',
+            filter: 'true'
         },
         {
             headerName: 'Model',
-            field: 'model'
+            field: 'model',
+            filter: 'true'
         },
         {
             headerName: 'Color',
-            field: 'color'
+            field: 'color',
+            filter: 'true'
         },
         {
             headerName: 'Fuel',
-            field: 'fuel'
+            field: 'fuel',
+            filter: 'true'
         },
         {
             headerName: 'Year',
-            field: 'year'
+            field: 'year',
+            filter: 'true'
         },
         {
             headerName: 'Price',
-            field: 'price'
+            field: 'price',
+            filter: 'true'
         }
     ]
 
     return(
-        <div className='ag-theme-material' style={{width: '1200px', height: '400px', margin: 'auto', textAlign: 'center'}}>
+        <div className='ag-theme-material' style={{width: '1200px', height: '600px', margin: 'auto', padding: '20px 0'}}>
             <AgGridReact 
                 columnDefs={columns}
                 rowData={cars}
+                //style={{ width: '100%', height: '600px' }}
             />
         </div>
     );
