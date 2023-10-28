@@ -23,6 +23,22 @@ export default function Carlist(){
         {
             headerName: 'Model',
             field: 'model'
+        },
+        {
+            headerName: 'Color',
+            field: 'color'
+        },
+        {
+            headerName: 'Fuel',
+            field: 'fuel'
+        },
+        {
+            headerName: 'Year',
+            field: 'year'
+        },
+        {
+            headerName: 'Price',
+            field: 'price'
         }
     ]
 
