@@ -1,4 +1,4 @@
-:root {
+/*:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -75,8 +75,11 @@ button:focus-visible {
   button {
     background-color: #213547;
   }
-}
-
-.del-btn {
-  background-color: rgb(216, 14, 14);
-}
+}*/
+.ag-cell-focus,.ag-cell-no-focus{
+  border:none !important;
+  }
+  .ag-cell:focus{
+  border:none !important;
+  outline: none;
+  }
