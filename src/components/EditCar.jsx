@@ -18,7 +18,6 @@ export default function EditCar(props) {
     });
 
     const handleClickOpen = () => {
-        console.log(props.car._links.car.href)
         setCar({
             brand: props.car.brand,
             model: props.car.model,
@@ -115,8 +114,8 @@ export default function EditCar(props) {
                 />
                 </DialogContent>
                 <DialogActions>
-                <Button color="error" variant="outlined" onClick={handleClose}>Cancel</Button>
-                <Button variant="contained" onClick={updateCar}>Save</Button>
+                    <Button color="error" variant="outlined" onClick={handleClose}>Cancel</Button>
+                    <Button variant="contained" onClick={updateCar}>Save</Button>
                 </DialogActions>
             </Dialog>
         </div>
